@@ -1,0 +1,50 @@
+.desserts {
+  background: linear-gradient(to right bottom, rgba(240, 174, 33, 0.438), rgba(250, 140, 54, 0.788)), url(./eclair-gcc466e894_1920.jpg);
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+
+  &-main {
+    text-align: center;
+    border-radius: 10px;
+    background: url(./meal-g1c2511feb_1920.jpg);
+    background-size: cover;
+    margin: 20px 15px;
+  }
+  img {
+    width: 120px;
+    margin: 8px 10px;
+    transition: all 0.4s ease-in;
+    border-radius: 100%;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.9);
+    }
+  }
+  h4 {
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 10px;
+    color: #020201;
+    margin-left: 17px;
+    border-radius: 5px;
+    padding: 2px;
+    background: linear-gradient(to right bottom, rgba(240, 174, 33, 0.438), rgba(250, 149, 54, 0.788));
+  }
+
+  .labeling {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #fe8612;
+  color: white;
+  height: 10vh;
+  border-top: 1px solid white;
+
+  p {
+    font-size: 18px;
+    span {
+      color: #fddc3d;
+    }
+    i {
+      font-size: 12px;
+      font-weight: lighter;
+      color: #b80404;
+      text-shadow: 2px 0px 4px;
+    }
+  }
+}

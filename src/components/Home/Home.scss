@@ -1,0 +1,109 @@
+.home {
+  min-height: 80vh;
+  height: auto;
+  background: url(./orange-gc68d946e7_1920.jpg);
+  background-size: cover;
+  color: white;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+
+  &-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      font-size: 30px;
+      color: rgb(243, 60, 14);
+      text-shadow: 3px 0px 10px;
+
+      span {
+        color: #fe8612;
+      }
+    }
+  }
+  &-search {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    input {
+      padding: 10px;
+      outline: none;
+      border: 1px solid #ccc;
+      width: 300px;
+      font-size: 18px;
+      border-radius: 10px;
+      margin: 30px 5px;
+    }
+
+    button {
+      font-size: 17px;
+      border: 1px solid #ccc;
+      padding: 5px;
+      color: #fff;
+      background-color: #fe8612;
+      // margin-left: 15px;
+      border-radius: 5px;
+      outline: none;
+      cursor: pointer;
+      height: 40px;
+      width: 120px;
+
+      &:hover {
+        color: #da0700;
+      }
+    }
+  }
+
+  &-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .home-food {
+      text-align: center;
+      background-color: #fcd908;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      background: url(./meal-g1c2511feb_1920.jpg);
+      background-size: cover;
+
+      .home-labeling {
+        width: 270px;
+
+        h4 {
+          font-size: 18px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          padding: 10px;
+          color: #da0700;
+          margin-left: 3px;
+          border-radius: 5px;
+          padding: 2px;
+          background: linear-gradient(to right bottom, rgba(240, 174, 33, 0.438), rgba(250, 149, 54, 0.788));
+        }
+      }
+    }
+
+    img {
+      width: 250px;
+      border: 1px solid #ccc;
+      margin: 10px;
+      transition: all 0.4s ease;
+      border-radius: 10px;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
