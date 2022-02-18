@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-heading">
         <h1>
-          FDD <span>App</span> <i>bayu-bosque</i>
+          FDD <span>App</span> <i>router</i>
         </h1>
       </div>
       <div className="navbar-links">
